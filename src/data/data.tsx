@@ -79,6 +79,9 @@ export const heroData: Hero = {
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      I believe I can do anything. <strong className="text-stone-100">making a coffee ☕ or making a rocket 🚀</strong>
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time , you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
