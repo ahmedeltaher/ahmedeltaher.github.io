@@ -413,17 +413,17 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Matthias Pape',
       text: 'Ahmed is a high professional, friendly and very good team player. It was a pleasure to work with him! He has amazing skills and passionate about sharing his knowlege with his team.',
-      image: 'react-resume-template/src/components/Icon/personIcon.tsx',
+      image: '',
     },
     {
       name: 'Mohamed Elmaazy',
       text: "I had the pleasure of studying android track under instructing Ahmed Eltaher , He is hard worker , patient , Confident ,Positive thinker , innovator , have excellent technical knowledge ,learn me how to think in my own business",
-      image: 'react-resume-template/src/components/Icon/personIcon.tsx',
+      image: '',
     },
     {
       name: 'Islam Mansour',
       text: 'Ahmed is very active person, really a hard worker, very ambitious and he like what he is doing ',
-      image: 'react-resume-template/src/components/Icon/personIcon.tsx',
+      image: '',
     },
   ],
 };
