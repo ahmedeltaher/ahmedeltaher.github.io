@@ -142,7 +142,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming languages',
     skills: [
       {
         name: 'Java',
