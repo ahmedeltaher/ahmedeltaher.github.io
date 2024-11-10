@@ -45,8 +45,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Ahmed Eltaher - Software Architect 🧙🏻‍♂️',
+  description: "I'm Ahmed Eltaher, a Berlin based Software Architect, currently working at SAP SE.",
 };
 
 /**
