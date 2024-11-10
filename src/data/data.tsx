@@ -70,12 +70,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Ahmed Eltaher.`,
+  name: `I'm The Simple One, I'm Ahmed Eltaher.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm Berlin based <strong className="text-stone-100">Software Architect</strong>, currently working
-        at <strong className="text-stone-100">SAP SE</strong> helping build a modern, mobile-first, domain
+        I'm <strong className="text-stone-100">Software Solution Architect 🧙🏻‍♂️ </strong>with more than +15 years experience working currently
+        at <strong className="text-stone-100">SAP SE</strong> helping build a modern ML & AI Applications, mobile-first, domain
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
