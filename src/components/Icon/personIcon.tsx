@@ -1,14 +1,14 @@
 import React from 'react';
 
-const PersonIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+const PersonIcon: React.FC<React.SVGProps<SVGSVGElement>> = React.memo((props) => (
   <svg
-    {...props}
+    height="1000px"
+    viewBox="0 0 256 256"
+    width="1000px"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width="1000px"  // Set larger default width
-    height="1000px" // Set larger default height
-    viewBox="0 0 256 256"
     xmlSpace="preserve"
+    {...props}
   >
     <g
       style={{
@@ -37,7 +37,7 @@ const PersonIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
           fillRule: 'nonzero',
           opacity: 1,
         }}
-        transform=" matrix(1 0 0 1 0 0)"
+        transform="matrix(1 0 0 1 0 0)"
       />
       <path
         d="M 54.639 42.727 C 51.743 44.226 48.47 45.09 45 45.09 s -6.743 -0.863 -9.639 -2.363 c -12.942 1.931 -22.952 13.162 -22.952 26.619 v 17.707 c 0 1.621 1.326 2.946 2.946 2.946 h 59.29 c 1.621 0 2.946 -1.326 2.946 -2.946 V 69.347 C 77.591 55.889 67.581 44.659 54.639 42.727 z"
@@ -52,10 +52,12 @@ const PersonIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
           fillRule: 'nonzero',
           opacity: 1,
         }}
-        transform=" matrix(1 0 0 1 0 0)"
+        transform="matrix(1 0 0 1 0 0)"
       />
     </g>
   </svg>
-);
+));
+
+PersonIcon.displayName = 'PersonIcon';
 
 export default PersonIcon;
