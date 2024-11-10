@@ -6,8 +6,8 @@ const PersonIcon: React.FC<React.SVGProps<SVGSVGElement>> = React.memo((props) =
     viewBox="0 0 256 256"
     width="1000px"
     xmlns="http://www.w3.org/2000/svg"
-    xmlSpace="preserve"
     xmlnsXlink="http://www.w3.org/1999/xlink"
+    xmlSpace="preserve"
     {...props}
   >
     <g
